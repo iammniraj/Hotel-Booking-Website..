@@ -11,25 +11,52 @@
       <div class="container">
         <!-- HEADER DIV START -->
         <header class="header-div">
-          <img
+          <a href="index.html">
+            <img
             class="logo-img"
             src="assests/images/logo.png"
             alt="logo"
             width="150px"
             height="100px"
           />
-          <a class="Login-Icon" href="Login.html" target="_blank">Login</a>
+          </a>
+          <a class="Login-Icon" href="Login.html" >Login</a>
         </header>
          <!-- HEADER DIV END -->
 
          <!-- CONTENT DIV START  -->
          <div class="content-div">
-          <li><a type="dot" href="list.html">List Veiw</a></li>
-          <li><a href="list.html">Map Veiw</a></li>
+          <!-- <li><a type="dot" href="list.html">List Veiw</a></li>
+          <li><a href="list.html">Map Veiw</a></li> -->
           <div class="radisson-blu-hotel">
               <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg">
               <div class="btn-book">
-              <a href="payment.html">Book Now</a>
+                <form action="payment.html">
+                  <label for="ad">Adults:</label>
+                  <input 
+                  type="number" 
+                  name="ad" 
+                  id="ad"
+                  min="1"
+                  step="1" 
+                  required >
+                  <br>
+                  <label for="name">Name:</label>
+                  <input type="text" name="name" id="name" required >
+                  <br>
+                  <label for="fDate">From Date</label>
+                  <input type="date" name="fDate" id="fDate" required>
+                  <br>
+                  <label for="tDate">To Date</label>
+                  <input type="date" name="tDate" id="tDate" required>
+                  <br>
+                  <label for="Total">Total:</label>
+                  <input type="text" id="Total" name="Total" disabled>
+                  <br>
+                  <!-- <a href="payment.html">Book Now</a> -->
+                  <button>Book Now</button>
+                </form>
+              
               </div>
               <h2>Radisson Blu Hotel</h2>
 
