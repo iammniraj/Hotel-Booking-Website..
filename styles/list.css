@@ -3,31 +3,102 @@
   padding: 0;
 }
 body {
+  background-color: #e0e0e0;
   height: 100%;
   width: 100%;
-  background-color: #e0e0e0;
 }
 .container {
   height: 100%;
   width: 100%;
-}
-.header-div {
-  background-color: rosybrown;
-}
-.footer-div {
-  background-color: rosybrown;
+  font-family: "Ubuntu", sans-serif;
+  position: relative;
 }
 .logo-img {
   width: 60px;
   height: 60px;
 }
+.login-icon {
+  text-decoration: none;
+  float: right;
+  margin: 20px;
+}
+.header-div {
+  position: sticky;
+  top: 0;
+  background-color: rosybrown;
+}
+/* content div.*/
+.content-div {
+  margin: 15px;
+}
 .hotel-details img {
   height: 150px;
   width: 250px;
 }
+.hotel-details-3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: first baseline;
+  margin-bottom: 5%;
+}
 .hotel-details {
-  margin: 2%;
-  width: 40%;
+  min-width: 40%;
   background-color: rgb(132, 136, 139);
-  /* border: 1px solid rebeccapurple; */
+  margin: 2% 5% 2% 3%;
+  padding-bottom: 10px;
+  line-height: 30px;
+}
+.hotel-details a {
+  text-decoration: none;
+  color: black;
+}
+.lv-mv {
+  display: flex;
+  justify-content: center;
+}
+.lv-mv li {
+  list-style-type: none;
+}
+.lv-mv li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  /* list-style-type: none; */
+  margin-right: 80px;
+  margin-top: 50px;
+}
+#map-view img {
+  display: none;
+}
+/* footer div */
+
+.footer-div {
+  display: block;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 20px 0 0 0;
+  background-color: rosybrown;
+}
+.copy-right {
+  font-size: 10px;
+  margin: 20px 0 0 0;
+}
+.social-logo {
+  float: right;
+  padding: 5px;
+}
+.social-logo img {
+  height: 20px;
+  width: 22px;
+}
+.contact-us {
+  float: left;
+  padding: 5px;
+}
+.contact-us a {
+  text-decoration: none;
+  color: black;
 }
