@@ -1,10 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   height: 100%;
   width: 100%;
+  background-color: #e0e0e0;
 }
 .container {
   height: 100%;
   width: 100%;
+}
+.header-div {
+  background-color: rosybrown;
+}
+.footer-div {
+  background-color: rosybrown;
 }
 .logo-img {
   width: 60px;
@@ -13,4 +24,10 @@ body {
 .hotel-details img {
   height: 150px;
   width: 250px;
+}
+.hotel-details {
+  margin: 2%;
+  width: 40%;
+  background-color: rgb(132, 136, 139);
+  /* border: 1px solid rebeccapurple; */
 }

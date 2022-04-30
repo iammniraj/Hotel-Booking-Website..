@@ -1,10 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   height: 100%;
   width: 100%;
+  background-color: #e0e0e0;
 }
 .container {
   height: 100%;
   width: 100%;
+}
+.header-div {
+  background-color: rosybrown;
+}
+.footer-div {
+  background-color: rosybrown;
 }
 .logo-img {
   width: 60px;
@@ -13,4 +24,11 @@ body {
 .radisson-blu-hotel img {
   height: 500px;
   width: 500px;
+  margin: 2% 4% 0 4%;
+}
+.booking-details {
+  margin: 0 4% 1% 4%;
+}
+.hotel-description {
+  margin: 1% 4% 2% 4%;
 }
