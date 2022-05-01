@@ -7,6 +7,24 @@ body {
   height: 100%;
   width: 100%;
 }
+h3 {
+  font-family: "Tapestry", cursive;
+  font-style: normal;
+  font-size: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+h2 {
+  margin-bottom: 30px;
+}
+
+.header-div {
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background-color: rosybrown;
+}
 .container {
   height: 100%;
   width: 100%;
@@ -18,58 +36,123 @@ body {
   height: 60px;
 }
 .login-icon {
+  display: flex;
+  flex-direction: flex-end;
   text-decoration: none;
   float: right;
   margin: 20px;
 }
-.header-div {
-  position: sticky;
-  top: 0;
-  background-color: rosybrown;
-}
-.logo-img {
-  width: 60px;
-  height: 60px;
-}
+
+/* content div start */
 
 .radisson-blu-hotel img {
-  height: 500px;
+  max-height: 350px;
   width: 500px;
-  margin: 2% 4% 0 4%;
+  /* margin: 2% 4% 0 4%; */
 }
 .booking-details {
-  margin: 0 4% 1% 4%;
+  margin: 20px;
+  /* margin: 0 4% 1% 4%; */
+  display: flex;
+  /* align-self: center; */
+  /* align-items: center; */
+  /* justify-content: space-between; */
+}
+.hotel-image {
+  border: 2px solid gray;
+  width: 60%;
+  padding: 1% 12% 0.7% 12%;
+  /* align-self: flex-start; */
+}
+.booking-form {
+  max-height: 400px;
+  width: 40%;
+  border: 2px solid gray;
+  border-left: none;
 }
 .hotel-description {
   margin: 1% 4% 7% 4%;
 }
 
+.form-inp {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.form-inp label {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.form-inp input {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+input[type="number"],
+select,
+textarea {
+  width: 60%;
+  padding: 4px 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  /* resize: vertical; */
+}
+input[type="text"],
+select,
+textarea {
+  width: 60%;
+  padding: 3px 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+input[id="Total"] {
+  width: 60%;
+  padding: 3px 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+input[type="date"],
+input {
+  width: 60%;
+  padding: 3px 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  /* resize: vertical; */
+}
+.form-inp button {
+  padding: 5px;
+}
+
 /* footer div */
+
 .footer-div {
-  display: block;
-  text-align: center;
   position: fixed;
   left: 0;
   right: 0;
   bottom: 0;
-  padding: 20px 0 0 0;
   background-color: rosybrown;
+}
+.footer-div-list {
+  display: flex;
+  justify-content: space-between;
 }
 .copy-right {
   font-size: 10px;
-  margin: 20px 0 0 0;
+  margin: 15px 0 0 0;
 }
 .social-logo {
   float: right;
-  padding: 5px;
+  margin: 12px 20px 12px 0px;
 }
 .social-logo img {
   height: 20px;
   width: 22px;
 }
 .contact-us {
-  float: left;
-  padding: 5px;
+  /* float: left;
+  padding: 5px; */
+  margin: 12px 0 12px 20px;
 }
 .contact-us a {
   text-decoration: none;

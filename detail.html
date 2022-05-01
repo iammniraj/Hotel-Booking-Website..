@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link rel="stylesheet" href="styles/detail.css">
+    <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tapestry&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Detail</title>
   </head>
@@ -30,33 +37,50 @@
           <!-- <li><a type="dot" href="list.html">List Veiw</a></li>
           <li><a href="list.html">Map Veiw</a></li> -->
           <div class="radisson-blu-hotel">
-              <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg">
+
               <div class="booking-details">
-                <form action="payment.html">
-                  <label for="ad">Adults:</label>
-                  <input 
-                  type="number" 
-                  name="ad" 
-                  id="ad"
-                  min="1"
-                  step="1" 
-                  required >
-                  <br>
-                  <label for="name">Name:</label>
-                  <input type="text" name="name" id="name" required >
-                  <br>
-                  <label for="fDate">From Date</label>
-                  <input type="date" name="fDate" id="fDate" required>
-                  <br>
-                  <label for="tDate">To Date</label>
-                  <input type="date" name="tDate" id="tDate" required>
-                  <br>
-                  <label for="Total">Total:</label>
-                  <input type="text" id="Total" name="Total" disabled>
-                  <br>
-                  <!-- <a href="payment.html">Book Now</a> -->
-                  <button>Book Now</button>
-                </form>
+                <div class="hotel-image">
+                  <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg">
+                </div>
+                <div class="booking-form">
+                  
+                  <form action="payment.html">
+                    <div class="form-inp">
+                      <label for="ad">Adults:</label>
+                      <input 
+                      type="number" 
+                      name="ad" 
+                      id="ad"
+                      min="1"
+                      step="1" 
+                      required >
+                    </div>
+                    <div class="form-inp">
+                      <label for="name">Name:</label>
+                      <input type="text" name="name" id="name" required >
+                    </div>
+                    <div class="form-inp">
+                      <label for="fDate">From Date</label>
+                    <input type="date" name="fDate" id="fDate" required>
+                    </div>    
+                    <div class="form-inp">
+                      <label for="tDate">To Date</label>
+                    <input type="date" name="tDate" id="tDate" required>
+                    </div>
+                    
+                    <div class="form-inp">
+                      <label for="Total">Total:</label>
+                    <input type="number" id="Total"  name="Total" disabled >
+                    </div>
+                    
+                    <div class="form-inp">
+                      <button>Book Now</button>
+                    </div>
+                    <!-- <a href="payment.html">Book Now</a> -->
+                    
+                  </form>
+                </div>
+                
               </div>
 
               <div class="hotel-description">
@@ -76,25 +100,37 @@
               
           </div>
       </div>
-      <!-- FOOTER DIV START  -->
-      <footer>
-        <div class="footer-div">
-          
-            <div class="contact-us">
-                <a href="contact.html">Contact Us</a>
-            </div>
-
-            <div class="social-logo" >
-                <a href="https://www.facebook.com/" target="_blank"><img src="assests/images/facebook.png" width="22px" height="20px"></a>
-                <a href="https://www.instagram.com" target="_blank"><img src="assests/images/instagram.png" width="22px" height="20px"></a>
-                <a href="https://twitter.com" target="_blank"><img src="assests/images/twitter.png" width="22px" height="20px"></a>
-            </div>
-
-            <div class="copy-right">
-                <P style="margin-top: 0">&copy; 2020 ROOM SEARCH PVT LTD.</P>
-            </div>
-
+     <!-- FOOTER DIV START -->
+     <footer class="footer-div">
+      <div class="footer-div-list">
+        <div class="contact-us">
+          <a href="contact.html">Contact Us</a>
         </div>
+
+        <div class="copy-right">
+          <p ">&copy; 2020 ROOM SEARCH PVT LTD.</p>
+        </div>
+
+        <div class="social-logo">
+          <a href="https://www.facebook.com/" target="_blank"
+            ><img
+              src="assests/images/facebook.png"
+              width="22px"
+              height="20px"
+          /></a>
+          <a href="https://www.instagram.com" target="_blank"
+            ><img
+              src="assests/images/instagram.png"
+              width="22px"
+              height="20px"
+          /></a>
+          <a href="https://twitter.com" target="_blank"
+            ><img src="assests/images/twitter.png" width="22px" height="20px"
+          /></a>
+        </div>
+
+        
+      </div>
     </footer>
     </div>
   </body>
