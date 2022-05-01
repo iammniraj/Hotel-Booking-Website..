@@ -25,7 +25,7 @@ h2 {
   top: 0;
   background-color: rosybrown;
 }
-.container {
+.my-container {
   height: 100%;
   width: 100%;
   font-family: "Ubuntu", sans-serif;
@@ -80,12 +80,12 @@ h2 {
   align-items: center;
 }
 .form-inp label {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 .form-inp input {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 input[type="number"],
 select,
@@ -122,6 +122,20 @@ input {
 }
 .form-inp button {
   padding: 5px;
+}
+
+/* buttons */
+.btn-tansp {
+  background-color: transparent;
+  color: green;
+  border: 1px solid green;
+  padding: 20px 50px;
+  text-align: center;
+  border-radius: 5px;
+}
+.btn-tansp:hover {
+  background-color: darkgreen;
+  color: white;
 }
 
 /* footer div */

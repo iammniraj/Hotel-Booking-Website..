@@ -7,14 +7,14 @@ body {
   height: 100%;
   width: 100%;
 }
-.header-div {
+.my-header-div {
   display: flex;
   justify-content: space-between;
   position: sticky;
   top: 0;
   background-color: rosybrown;
 }
-.container {
+.my-container {
   height: 100%;
   width: 100%;
   font-family: "Ubuntu", sans-serif;
@@ -33,7 +33,7 @@ body {
 }
 
 /* content div */
-.search-bar {
+.my-search-bar {
   display: flex;
   height: 380px;
   background-position: center;
@@ -45,10 +45,10 @@ body {
   justify-content: space-around;
   align-items: center;
 }
-.search-bar_text {
+.my-search-bar_text {
   border: transparent;
   border-color: #f1f1f1;
-  padding: 8px;
+  padding: 20px;
   font-size: 16px;
   border-radius: 12px;
   height: 20px;

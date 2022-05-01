@@ -51,7 +51,7 @@ p strong {
 }
 
 .radisson-blu-hotel img {
-  max-width: 270px;
+  width: 350px;
   max-height: 300px;
 }
 .radisson-blu-hotel {
@@ -70,8 +70,8 @@ p strong {
   width: 95%;
   align-items: center;
   justify-content: space-evenly;
-  padding: 20px 0px;
-  line-height: 40px;
+  padding: 10px 0px;
+  line-height: 30px;
   border: 1px solid black;
   border-radius: 5px;
   margin: 10px 2% 200px 2%;
