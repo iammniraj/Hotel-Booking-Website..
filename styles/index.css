@@ -40,30 +40,18 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url("https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg");
-  /* padding: 20px auto; */
-  /* position: initial; */
   justify-content: space-around;
   align-items: center;
 }
 .my-search-bar_text {
   border: transparent;
   border-color: #f1f1f1;
-  padding: 20px;
+  padding: 10px 20px;
   font-size: 16px;
   border-radius: 12px;
-  height: 20px;
+  height: 40px;
   width: 27%;
   outline: none;
-  /* position: absolute;
-  left: 50%;
-  top: 38%;
-  transform: translate(-50%, -50%); */
-  /* padding: 5px;
-  justify-content: center;
-  margin: 13%;
-  background-color: #f1f1f1;
-  border: 1px solid transparent;
-  border-radius: 5px; */
 }
 .location-city img {
   /* padding: 4%; */
@@ -132,11 +120,12 @@ body {
   width: 22px;
 }
 .contact-us {
-  /* float: left;
-  padding: 5px; */
   margin: 12px 0 12px 20px;
 }
 .contact-us a {
   text-decoration: none;
   color: black;
+}
+
+@media only screen and (min-width: 859px) {
 }
