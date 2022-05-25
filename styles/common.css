@@ -7,12 +7,17 @@ body {
   height: 100%;
   width: 100%;
 }
+html {
+  font-size: 62.5%;
+}
 .my-header-div {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   position: sticky;
   top: 0;
   background-color: rosybrown;
+  z-index: 100;
 }
 .my-container {
   height: 100%;
@@ -21,21 +26,22 @@ body {
   position: relative;
 }
 .logo-img {
-  width: 60px;
-  height: 60px;
-  float: left;
-  margin: 20px;
+  width: 6rem;
+  height: 6rem;
+  margin-left: 1rem;
 }
 .login-icon {
-  display: flex;
-  flex-direction: flex-end;
   text-decoration: none;
-  float: right;
-  margin: 20px;
+  margin-right: 1.5rem;
+  padding: 1rem 1.5rem;
+  border-radius: 5px;
+  border: none;
 }
+
 /* footer div */
 
 .footer-div {
+  z-index: 100;
   position: fixed;
   left: 0;
   right: 0;
@@ -49,6 +55,7 @@ body {
 .copy-right {
   font-size: 10px;
   margin: 15px 0 0 0;
+  align-self: flex-end;
 }
 .social-logo {
   float: right;
@@ -59,8 +66,6 @@ body {
   width: 22px;
 }
 .contact-us {
-  /* float: left;
-    padding: 5px; */
   margin: 12px 0 12px 20px;
 }
 .contact-us a {
