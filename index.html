@@ -11,12 +11,15 @@
     <link rel="stylesheet" href="styles/index.css" />
     <link rel="stylesheet" href="styles/common.css">
 
-    <!-- <link rel="stylesheet" href="styles/common.css" /> -->
-    <!-- <link rel="stylesheet" href="styles/index.css" /> -->
 
     <title>Index</title>
   </head>
   <body>
+
+    <div class="conatainer-login hidden"></div>
+     <div id="cont-contact" class="hidden">
+      
+    </div>
     <div class="my-container" >
       <!-- HEADER DIV START -->
       <header class="my-header-div" id="header">
@@ -30,87 +33,90 @@
           <input class="my-search-bar_text" type="text" placeholder="city" />
         </div>
         <div class="location-city">
-            <div class="location-city-list">
-              <a href="list.html"
-                ><img class="black-img"
-                  src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg"
-                  
-              /></a>
-              <div class="city-name">
-                Delhi
-              </div>
-            </div>
               <div class="location-city-list">
-                <img class="black-img"
-                src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg"
-              />
-              <div class="city-name">
-                Goa
-              </div>
-              </div>
-              <div class="location-city-list">
-                <img class="black-img"
-                src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg"
-              />
-              <div class="city-name">
-                Hyderabad
-              </div>
-              </div>
-              <div class="location-city-list">
-                  <img class="black-img"
-                  src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg"
-                  
+                  <a href="list.html"
+                    ><img class="black-img"
+                      src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg"
+                      
+                  /></a>
+                  <div class="city-name">
+                    Delhi
+                  </div>
+                </div>
+                  <div class="location-city-list">
+                    <img class="black-img"
+                    src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg"
                   />
-                <div class="city-name">
-                  Kolkata
-                </div>
+                  <div class="city-name">
+                    Goa
+                  </div>
+                  </div>
+                  <div class="location-city-list">
+                    <img class="black-img"
+                    src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg"
+                  />
+                  <div class="city-name">
+                    Hyderabad
+                  </div>
+                  </div>
+                  <div class="location-city-list">
+                      <img class="black-img"
+                      src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg"
+                      
+                      />
+                    <div class="city-name">
+                      Kolkata
+                    </div>
+                  </div>
               </div> 
-              <div class="location-city-list">
-                  <img class="black-img"
-                  src="https://media-cdn.tripadvisor.com/media/photo-s/15/4d/46/b8/chennai-madras.jpg"
+              <div class="location-city2 hidden">
+                    <div class="location-city-list2">
+                      <img class="black-img"
+                      src="https://media-cdn.tripadvisor.com/media/photo-s/15/4d/46/b8/chennai-madras.jpg"
+                      
+                    />
+                    <div class="city-name">
+                      Chennai
+                    </div>
+                  </div> 
+                  <div class="location-city-list2">
+                      <img class="black-img"
+                      src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/fc/agra.jpg"
+                      
+                    />
+                    <div class="city-name">
+                      Agra
+                    </div>
+                  </div> 
+                  <div class="location-city-list2">
+                      <img class="black-img"
+                      src="https://media-cdn.tripadvisor.com/media/photo-s/10/a3/3b/8a/screenshot-2017-09-12.jpg"
+                      
+                    />
+                    <div class="city-name">
+                      Jaipur
+                    </div>
+                  </div> 
+                  <div class="location-city-list2">
+                    <img class="black-img"
+                    src="https://media-cdn.tripadvisor.com/media/photo-s/0c/d2/2f/7a/palace-from-the-outside.jpg"
+                  />
+                  <div class="city-name">
+                    Bengaluru
                   
-                />
-                <div class="city-name">
-                  Chennai
-                </div>
-              </div> 
-              <div class="location-city-list">
-                  <img class="black-img"
-                  src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/fc/agra.jpg"
-                  
-                />
-                <div class="city-name">
-                  Agra
-                </div>
-              </div> 
-              <div class="location-city-list">
-                  <img class="black-img"
-                  src="https://media-cdn.tripadvisor.com/media/photo-s/10/a3/3b/8a/screenshot-2017-09-12.jpg"
-                  
-                />
-                <div class="city-name">
-                  Jaipur
-                </div>
-              </div> 
-              <div class="location-city-list">
-                <img class="black-img"
-                src="https://media-cdn.tripadvisor.com/media/photo-s/0c/d2/2f/7a/palace-from-the-outside.jpg"
-              />
-              <div class="city-name">
-                Bengaluru
-              </div>
-              </div> 
-          </div>  
+                  </div> 
+                  </div>
+              </div>  
           <div class="view-more">
-          <a href="index.html">
-            <button type="button" class="btn btn-secondary">View more &#8827 </button>
-          </a>
+            <button type="button" class="btn-view-more">View more ></button>
+            <!-- &#8827 -->
         </div>           
       </div>
       
       <!-- CONTENT DIV END -->
 
-      <div class="login">
+      
+    
 
       </div>
 
@@ -124,6 +130,7 @@
 
       <!-- FOOTER DIV END -->
     </div>
+    <script src="scripts/index.js"></script>
     <script src="scripts/common.js"></script>
   </body>
 </html>
